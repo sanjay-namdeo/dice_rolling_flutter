@@ -1,6 +1,6 @@
-# dice_rolling_flutter
+# Dice Rolling
 
-Dice rolling app built in Flutter
+A beautiful dice rolling app built in Flutter
 
 ## Getting Started
 
