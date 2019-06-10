@@ -2,11 +2,14 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() => runApp(MaterialApp(
+      theme: ThemeData.dark(),
       home: Scaffold(
-        backgroundColor: Colors.deepOrange,
         appBar: AppBar(
-          backgroundColor: Colors.deepOrange.shade700,
-          title: Text('Dice Rolling'),
+          centerTitle: true,
+          title: Text(
+            'Dice Rolling',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+          ),
         ),
         body: DicePage(),
       ),
